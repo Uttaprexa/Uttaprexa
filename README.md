@@ -1,115 +1,91 @@
-<!-- UTTAPREKSHA PATEL — GitHub Profile README -->
-<!-- This goes in a repo named exactly: Uttaprexa/Uttaprexa -->
-
 <div align="center">
-
-```
-┌─────────────────────────────────────────────────────────┐
-│  uttapreksha_patel.profile                              │
-│  AI Engineer · LLMs · RAG · Computer Vision · HPC      │
-│  M.S. ECE @ Northeastern  ·  GPA 3.9  ·  May 2026      │
-│  Boston, MA  →  open to relocate anywhere              │
-└─────────────────────────────────────────────────────────┘
-```
-
+  <img src="https://uttaprexa.github.io/profile.jpeg" width="120" height="120" style="border-radius:50%" alt="Uttapreksha Patel"/>
+  
+  ## Uttapreksha Patel
+  
+  **AI Engineer · LLMs · RAG · Computer Vision · HPC**
+  
+  M.S. ECE @ Northeastern &nbsp;·&nbsp; GPA 3.9 &nbsp;·&nbsp; May 2026 &nbsp;·&nbsp; Boston MA → open to relocate
+  
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-uttapreksha--patel-0077B5?style=flat&logo=linkedin)](https://linkedin.com/in/uttapreksha-patel)
+  [![Email](https://img.shields.io/badge/Email-patel.utt%40northeastern.edu-D14836?style=flat&logo=gmail)](mailto:patel.utt@northeastern.edu)
+  [![Portfolio](https://img.shields.io/badge/Portfolio-uttaprexa.github.io-black?style=flat&logo=github)](https://uttaprexa.github.io)
 </div>
 
 ---
 
-## `$ cat build_outputs.log`
+### What I build
+
+AI systems with benchmarks, not vibes. LLM agents, RAG pipelines, computer vision models, distributed ML infrastructure — everything I ship has a number attached.
+
+Currently a Research Assistant at Northeastern building HPC telemetry infrastructure on AWS EC2 (10M+ records, Darshan/LDMS/OVIS). Graduating **May 2026**. Looking for roles in AI engineering · ML engineering · forward deployed engineering · SWE infra.
+
+---
+
+### Selected outcomes
+
+| System | Result |
+|--------|--------|
+| Memory-aware LLM agent | Query accuracy `0.613 → 0.760` &nbsp; · &nbsp; −64% slot failures vs rule-based |
+| Healthcare RAG system | −18% hallucinations &nbsp; · &nbsp; +25% answer correctness &nbsp; · &nbsp; −22% latency |
+| VLM anomaly detection *(published)* | `0.916` classification AUROC &nbsp; · &nbsp; `0.907` segmentation AUROC |
+| Distributed reco (PySpark, 25M ratings) | `129s → 32s` training time &nbsp; · &nbsp; **3.98× speedup** |
+| HPC telemetry pipeline | `10M+` records/run &nbsp; · &nbsp; +30% reliability |
+| GPU bench P100/V100/H100 | −70% training time H100 vs P100 |
+
+---
+
+### Projects
+
+**[Memory-Aware LLM Agent](https://github.com/Uttaprexa)** &nbsp;·&nbsp; `Python` `Claude API` `LangChain` `RAG`  
+Adaptive STORE/KEEP/DROP classifier for long-horizon dialogue agents. Evaluated across 75 dialogues, 15 domains, 4 baselines.
+
+**[VLM Anomaly Detection](https://github.com/Uttaprexa/Analyzing-VLM-Based-Approaches-for-AC-AS)** &nbsp;·&nbsp; `PyTorch` `WinCLIP` `AnomalyCLIP` *(published)*  
+Zero-shot evaluation on MVTec AD + VisA. Full error analysis and qualitative failure inspection.
+
+**[Healthcare Knowledge Retrieval](https://github.com/Uttaprexa)** &nbsp;·&nbsp; `FAISS` `HuggingFace` `Docker` `Flask`  
+RAG system with golden-question benchmarks and retrieval tuning. Dockerized and deployed.
+
+**[Climate Data Pipeline](https://github.com/Uttaprexa)** &nbsp;·&nbsp; `Pandas` `PyArrow` `Parquet` `REST APIs`  
+Production-style ingestion from two APIs (CSV + JSON), automated drift monitoring (Z-score), hourly scheduling.
+
+**[Distributed Recommendation](https://github.com/Uttaprexa)** &nbsp;·&nbsp; `PySpark` `Spark MLlib` `Slurm`  
+ALS on MovieLens 25M. 3.98× speedup via parallelization on Slurm cluster.
+
+**[GPU Benchmarking](https://github.com/Uttaprexa)** &nbsp;·&nbsp; `PyTorch` `CUDA` `NVIDIA Nsight`  
+ResNet-50 profiled across P100/V100/H100. CUDA kernels, memory utilization, host-device transfers.
+
+---
+
+### Stack
 
 ```
-[ memory_agent ]  query_accuracy      → 0.613 ▶ 0.760   (+24pp over RAG baseline)
-[ memory_agent ]  slot_failures       ↓ −64%             vs rule-based memory
-[ rag_system   ]  hallucinations      ↓ −18%
-[ rag_system   ]  answer_correctness  ↑ +25%
-[ rag_system   ]  end_to_end_latency  ↓ −22%
-[ vlm_paper    ]  classification_AUROC = 0.916            [ MVTec AD + VisA ]
-[ vlm_paper    ]  segmentation_AUROC   = 0.907
-[ spark_reco   ]  training_time      → 129s ▶ 32s        (3.98× speedup, 25M ratings)
-[ hpc_pipeline ]  records_processed   = 10M+
-[ hpc_pipeline ]  pipeline_reliability ↑ +30%
-[ gpu_bench    ]  H100 vs P100 training_time ↓ −70%
-[ robotics_rl  ]  action_prediction_consistency ↑ +22%
+Languages   Python · SQL · C++ · Bash
+AI / LLMs   LLMs · RAG · Agentic Systems · Memory Architectures
+            Embeddings · LangChain · Claude API · OpenAI API · HuggingFace
+ML / CV     PyTorch · TensorFlow · Computer Vision · Transformers · RL
+MLOps       Docker · AWS EC2 · MLflow · CI/CD · Linux · Experiment Tracking
+HPC         PySpark · Slurm · Darshan · LDMS · NVIDIA Nsight · CUDA
+Data        Pandas · NumPy · PostgreSQL · Statistical Analysis · Benchmarking
 ```
 
 ---
 
-## `$ whoami`
+### Education
 
-I build AI systems that have benchmarks, not vibes.
+**M.S. Electrical & Computer Engineering** — Northeastern University, Boston MA &nbsp;·&nbsp; GPA 3.9/4.0 &nbsp;·&nbsp; May 2026  
+Concentration: Machine Learning, Computer Vision, Algorithms  
+IEEE Workshop Coordinator · GSM Mentor
 
-Right now: Research Assistant at Northeastern, building HPC telemetry infrastructure on AWS EC2 (Darshan, LDMS, 10M+ records/pipeline). Before that: Python dev intern at TecUnique, automated API test coverage, cut issue resolution time 50%.
-
-Graduating **May 2026**. Looking for roles in **AI engineering · ML engineering · forward deployed engineering · SWE infra**.
-
----
-
-## `$ ls projects/`
-
-| ID | Project | Key Numbers | Stack |
-|---|---|---|---|
-| P.01 | **Memory-Aware LLM Agent** | 0.613→0.760 accuracy, −64% failures | Python, Claude API, RAG, LangChain |
-| P.02 | **VLM Anomaly Detection** *(published)* | 0.916 AUROC, 0.907 seg AUROC | PyTorch, WinCLIP, AnomalyCLIP |
-| P.03 | **Healthcare RAG System** | +25% correctness, −18% hallucinations | FAISS, HuggingFace, Docker, Flask |
-| P.04 | **Distributed Reco (PySpark)** | 3.98× speedup, 129s→32s, 25M ratings | PySpark, Spark MLlib, Slurm |
-| P.05 | **GPU Bench P100/V100/H100** | −70% train time H100 vs P100 | PyTorch, CUDA, NVIDIA Nsight |
-| P.06 | **Robotic Manipulation (RL)** | +22% action prediction consistency | PyTorch, RL, CNN, Simulation |
+**B.E. Electronics & Communication Engineering** — G H Patel College of Engineering, India &nbsp;·&nbsp; GPA 3.7/4.0 &nbsp;·&nbsp; May 2024  
+ISTE Documentation Head · IDEA Lab Co-Ambassador · TEDx Volunteer
 
 ---
-
-## `$ cat skills.json`
-
-```json
-{
-  "languages":    ["Python", "SQL", "C++", "Bash"],
-  "ai_llms":      ["LLMs", "RAG", "Agentic Systems", "Prompt Engineering",
-                   "Memory Architectures", "Embeddings", "LangChain",
-                   "OpenAI API", "Claude API", "HuggingFace"],
-  "ml_cv":        ["PyTorch", "TensorFlow", "Computer Vision", "NLP",
-                   "Transformers", "RL", "Fine-Tuning", "Evaluation Pipelines"],
-  "mlops_infra":  ["Docker", "AWS EC2", "MLflow", "CI/CD",
-                   "Linux", "Experiment Tracking", "Drift Monitoring"],
-  "hpc_systems":  ["PySpark", "Slurm", "Darshan", "LDMS",
-                   "NVIDIA Nsight", "CUDA", "GPU Profiling"],
-  "data":         ["Pandas", "NumPy", "PostgreSQL", "SciPy",
-                   "Statistical Analysis", "Benchmarking"]
-}
-```
-
----
-
-## `$ cat education.txt`
-
-```
-M.S. Electrical & Computer Engineering          GPA: 3.9 / 4.0
-  Northeastern University · Boston, MA · May 2026
-  Concentration: Machine Learning, Computer Vision, Algorithms
-  Coursework: Advanced ML · Advanced CV · MLOps · HPC · Parallel Data Analytics
-  Leadership: IEEE Workshop Coordinator (Spring 2025)
-
-B.E. Electronics & Communication Engineering    GPA: 3.7 / 4.0
-  G H Patel College of Engineering · Anand, India · May 2024
-  Coursework: Digital Image Processing · IoT · Python for Engineers
-  Leadership: ISTE Documentation Head · IDEA Lab Co-Ambassador · TEDx Volunteer
-```
-
----
-
-## `$ ./contact.sh`
-
-```bash
-email    → patel.utt@northeastern.edu
-phone    → (617) 961-9251
-linkedin → linkedin.com/in/uttapreksha-patel
-location → Boston, MA  |  open_to_relocate=true
-status   → actively_looking  |  available=May 2026
-```
 
 <div align="center">
-
-**→ [Portfolio](https://uttaprexa.github.io) · [LinkedIn](https://linkedin.com/in/uttapreksha-patel) · [Email](mailto:patel.utt@northeastern.edu)**
-
-*Everything has a benchmark. Everything has a number.*
-
+  
+  **[Portfolio](https://uttaprexa.github.io)** &nbsp;·&nbsp; **[LinkedIn](https://linkedin.com/in/uttapreksha-patel)** &nbsp;·&nbsp; **[Email](mailto:patel.utt@northeastern.edu)** &nbsp;·&nbsp; **[(617) 961-9251](tel:+16179619251)**
+  
+  *Everything has a benchmark. Everything has a number.*
+  
 </div>
